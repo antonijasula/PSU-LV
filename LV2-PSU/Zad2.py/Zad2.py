@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data= np.loadtxt(open("C:\\Users\\Antonija\\Desktop\\LV2-PSU\\Zad2.py\\mtcars.csv","rb"), usecols=(1,2,3,4,5,6),
+data= np.loadtxt(open("mtcars.csv","rb"), usecols=(1,2,3,4,5,6),
 delimiter=",", skiprows=1)
 
 print("min mpg: ", min(data[:, 0]))
