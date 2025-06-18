@@ -6,7 +6,7 @@ import numpy as np
 import joblib
 
 # ucitaj sliku i prikazi ju
-filename = '/home/matej/LV6-20230511/test.png'
+filename = '/home/antonija/LV6-20250515/test.png'
 
 img = mpimg.imread(filename)[:,:,:3]
 img = color.rgb2gray(img)
